@@ -1,0 +1,37 @@
+name: ecell_memory_game
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flip_card:
+  google_fonts:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+
+flutter:
+  uses-material-design: true
+  fonts:
+  - family: BloodyTerror
+    fonts:
+    - asset: fonts/BloodyTerror.ttf
+
+assets:
+  - assets/black_card.png
+  - assets/red_card.png
+  - assets/blue_card.png
+  - assets/background.png
+  - assets/evils/1.png
+  - assets/evils/2.png
+  - assets/evils/3.png
+  - assets/evils/4.png
+  - assets/evils/5.png
+  - assets/evils/6.png
